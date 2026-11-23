@@ -11,7 +11,6 @@ extension Modulus.Bulk {
     /// An amount of this kind, its scalar in pascals.
     public typealias Value<Scalar> = Tagged<Modulus.Bulk, Scalar>
 
-
     /// An amount of this kind given in pascals.
     @inlinable
     public static func pascals<Scalar>(_ scalar: Scalar) -> Value<Scalar> {
